@@ -26,4 +26,4 @@ You will have an orthogonal triangle input from a file and you need to find the 
     
 ~~~~~~~~~~~~~~~
 
-Program takes a string as an input which is named as '_s_' . String then converted into a 2D-array which resembles lower triangular matrix. Then obtained lower triangular matrix is used to find maximum possible sum obeying the rules above. In order for the no walking over of prime numbers constraint to be satisfied, all the prime numbers of the lower triangular matrix have been replaced with -100. 
+Program takes a string as an input which is named as '_s_' . String then converted into a 2D-array which resembles lower triangular matrix. Then obtained lower triangular matrix is used to find maximum possible sum obeying the rules above. In order for the no walking over of prime numbers constraint to be satisfied, all the prime numbers of the lower triangular matrix have been replaced with INT_MIN. 
