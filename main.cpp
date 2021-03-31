@@ -102,7 +102,7 @@ int main()
 
             int numb = stoi(token1);
             if(isPrime(numb)){
-                numb=-100;
+                numb= INT_MIN;
             }
             integers_of_triangle.push_back(numb);
             vecString[i].erase(0, pos1 + 1);
@@ -110,7 +110,7 @@ int main()
 
         int numb2 = stoi(vecString[i]);
         if(isPrime(numb2)){
-            numb2 = -100;
+            numb2 = INT_MIN;
         }
         integers_of_triangle.push_back(numb2);
     }
