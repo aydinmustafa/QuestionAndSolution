@@ -115,7 +115,7 @@ int main()
         integers_of_triangle.push_back(numb2);
     }
 
-    array2D[1][0] = 2;
+    
     int writing_cntr=1;
     int cnt=0;
     for(int i=0; i< global_size;i++){
